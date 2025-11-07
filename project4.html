@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Shop</title>
+    <style>
+        /* Global styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Header section */
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        /* Navigation menu */
+        nav {
+            background-color: #f7f7f7;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 15px;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #d32f2f;
+        }
+
+        /* Main content layout */
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* Sidebar for branches */
+        aside {
+            width: 20%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h2 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        aside ul li a:hover {
+            color: #d32f2f;
+        }
+
+        /* Main content section */
+        section {
+            width: 80%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: 20px;
+        }
+
+        section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #d32f2f;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            aside {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section with logo and title -->
+    <header>
+        <img src="C:/Documents and Settings/satish/Desktop/monday2/monday Sunset.jpg" alt="Book Store Logo">
+        <h1>ONLINE BOOK SHOP</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#login">Login</a>
+        <a href="#registration">Registration</a>
+        <a href="#catalogue">Catalogue</a>
+        <a href="#cart">Cart</a>
+    </nav>
+
+    <!-- Main layout with sidebar and content -->
+    <main>
+        <!-- Sidebar with branches links -->
+        <aside>
+            <h2>Branches</h2>
+            <ul>
+                <li><a href="#">CSE</a></li>
+                <li><a href="#">ECE</a></li>
+                <li><a href="#">EEE</a></li>
+                <li><a href="#">Civil</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main content area -->
+        <section>
+            <h2>Online Book Shop</h2>
+            <p>This website contains various books.</p>
+        </section>
+    </main>
+
+   </body>
+</html>
